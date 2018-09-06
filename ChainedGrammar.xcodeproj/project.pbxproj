@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		892BD16B8162B0FAED37F9EE /* Pods_____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B555E8ED15092858288062 /* Pods_____.framework */; };
 		CE01A0C52140B1C000DABCCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0C42140B1C000DABCCA /* AppDelegate.m */; };
 		CE01A0C82140B1C000DABCCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0C72140B1C000DABCCA /* ViewController.m */; };
 		CE01A0CB2140B1C000DABCCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE01A0C92140B1C000DABCCA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		CE01A0D32140B1C300DABCCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0D22140B1C300DABCCA /* main.m */; };
 		CE01A0DD2140B1C400DABCCA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0DC2140B1C400DABCCA /* ____Tests.m */; };
 		CE01A0E82140B1C400DABCCA /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0E72140B1C400DABCCA /* ____UITests.m */; };
+		CE01A0F72140BC7A00DABCCA /* QY_AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68B555E8ED15092858288062 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5C77909FE0548016DE60E2 /* Pods-链式语法.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式语法.release.xcconfig"; path = "Pods/Target Support Files/Pods-链式语法/Pods-链式语法.release.xcconfig"; sourceTree = "<group>"; };
+		AA06F98F3D2F179FC106C428 /* Pods-链式语法.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式语法.debug.xcconfig"; path = "Pods/Target Support Files/Pods-链式语法/Pods-链式语法.debug.xcconfig"; sourceTree = "<group>"; };
 		CE01A0C02140B1C000DABCCA /* 链式语法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式语法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE01A0C32140B1C000DABCCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE01A0C42140B1C000DABCCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		CE01A0E32140B1C400DABCCA /* 链式语法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE01A0E72140B1C400DABCCA /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		CE01A0E92140B1C400DABCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QY_AFNetworking.h; sourceTree = "<group>"; };
+		CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QY_AFNetworking.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892BD16B8162B0FAED37F9EE /* Pods_____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		054A9E9CEC7F6822111BB385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA06F98F3D2F179FC106C428 /* Pods-链式语法.debug.xcconfig */,
+				7B5C77909FE0548016DE60E2 /* Pods-链式语法.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9ADD8E4FED43CEF35C246D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B555E8ED15092858288062 /* Pods_____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE01A0B72140B1C000DABCCA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				CE01A0DB2140B1C400DABCCA /* 链式语法Tests */,
 				CE01A0E62140B1C400DABCCA /* 链式语法UITests */,
 				CE01A0C12140B1C000DABCCA /* Products */,
+				054A9E9CEC7F6822111BB385 /* Pods */,
+				9ADD8E4FED43CEF35C246D32 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +132,8 @@
 				CE01A0C42140B1C000DABCCA /* AppDelegate.m */,
 				CE01A0C62140B1C000DABCCA /* ViewController.h */,
 				CE01A0C72140B1C000DABCCA /* ViewController.m */,
+				CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */,
+				CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */,
 				CE01A0C92140B1C000DABCCA /* Main.storyboard */,
 				CE01A0CC2140B1C300DABCCA /* Assets.xcassets */,
 				CE01A0CE2140B1C300DABCCA /* LaunchScreen.storyboard */,
@@ -139,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE01A0EC2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法" */;
 			buildPhases = (
+				75468F71E9AED52166E67BE1 /* [CP] Check Pods Manifest.lock */,
 				CE01A0BC2140B1C000DABCCA /* Sources */,
 				CE01A0BD2140B1C000DABCCA /* Frameworks */,
 				CE01A0BE2140B1C000DABCCA /* Resources */,
+				0D5E35C0BC6C358A29497CA8 /* [CP] Embed Pods Frameworks */,
+				A261C71AA6DA884C035EA8DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +289,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D5E35C0BC6C358A29497CA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-链式语法/Pods-链式语法-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-链式语法/Pods-链式语法-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75468F71E9AED52166E67BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-链式语法-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A261C71AA6DA884C035EA8DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-链式语法/Pods-链式语法-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE01A0BC2140B1C000DABCCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE01A0F72140BC7A00DABCCA /* QY_AFNetworking.m in Sources */,
 				CE01A0C82140B1C000DABCCA /* ViewController.m in Sources */,
 				CE01A0D32140B1C300DABCCA /* main.m in Sources */,
 				CE01A0C52140B1C000DABCCA /* AppDelegate.m in Sources */,
@@ -431,6 +518,7 @@
 		};
 		CE01A0ED2140B1C400DABCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA06F98F3D2F179FC106C428 /* Pods-链式语法.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,11 +531,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qiuYangHanabi.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		CE01A0EE2140B1C400DABCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5C77909FE0548016DE60E2 /* Pods-链式语法.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +550,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qiuYangHanabi.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
