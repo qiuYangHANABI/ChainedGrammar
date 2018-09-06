@@ -40,7 +40,7 @@
 		68B555E8ED15092858288062 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5C77909FE0548016DE60E2 /* Pods-链式语法.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式语法.release.xcconfig"; path = "Pods/Target Support Files/Pods-链式语法/Pods-链式语法.release.xcconfig"; sourceTree = "<group>"; };
 		AA06F98F3D2F179FC106C428 /* Pods-链式语法.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-链式语法.debug.xcconfig"; path = "Pods/Target Support Files/Pods-链式语法/Pods-链式语法.debug.xcconfig"; sourceTree = "<group>"; };
-		CE01A0C02140B1C000DABCCA /* 链式语法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "链式语法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01A0C02140B1C000DABCCA /* ChainedGrammar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChainedGrammar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE01A0C32140B1C000DABCCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE01A0C42140B1C000DABCCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CE01A0C62140B1C000DABCCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -50,10 +50,10 @@
 		CE01A0CF2140B1C300DABCCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE01A0D12140B1C300DABCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE01A0D22140B1C300DABCCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE01A0D82140B1C400DABCCA /* 链式语法Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01A0D82140B1C400DABCCA /* ChainedGrammarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainedGrammarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE01A0DC2140B1C400DABCCA /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		CE01A0DE2140B1C400DABCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE01A0E32140B1C400DABCCA /* 链式语法UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "链式语法UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE01A0E32140B1C400DABCCA /* ChainedGrammarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainedGrammarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE01A0E72140B1C400DABCCA /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		CE01A0E92140B1C400DABCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QY_AFNetworking.h; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 		CE01A0B72140B1C000DABCCA = {
 			isa = PBXGroup;
 			children = (
-				CE01A0C22140B1C000DABCCA /* 链式语法 */,
-				CE01A0DB2140B1C400DABCCA /* 链式语法Tests */,
-				CE01A0E62140B1C400DABCCA /* 链式语法UITests */,
+				CE01A0C22140B1C000DABCCA /* ChainedGrammar */,
+				CE01A0DB2140B1C400DABCCA /* ChainedGrammarTests */,
+				CE01A0E62140B1C400DABCCA /* ChainedGrammarUITests */,
 				CE01A0C12140B1C000DABCCA /* Products */,
 				054A9E9CEC7F6822111BB385 /* Pods */,
 				9ADD8E4FED43CEF35C246D32 /* Frameworks */,
@@ -118,14 +118,14 @@
 		CE01A0C12140B1C000DABCCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE01A0C02140B1C000DABCCA /* 链式语法.app */,
-				CE01A0D82140B1C400DABCCA /* 链式语法Tests.xctest */,
-				CE01A0E32140B1C400DABCCA /* 链式语法UITests.xctest */,
+				CE01A0C02140B1C000DABCCA /* ChainedGrammar.app */,
+				CE01A0D82140B1C400DABCCA /* ChainedGrammarTests.xctest */,
+				CE01A0E32140B1C400DABCCA /* ChainedGrammarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE01A0C22140B1C000DABCCA /* 链式语法 */ = {
+		CE01A0C22140B1C000DABCCA /* ChainedGrammar */ = {
 			isa = PBXGroup;
 			children = (
 				CE01A0C32140B1C000DABCCA /* AppDelegate.h */,
@@ -140,33 +140,33 @@
 				CE01A0D12140B1C300DABCCA /* Info.plist */,
 				CE01A0D22140B1C300DABCCA /* main.m */,
 			);
-			path = "链式语法";
+			path = ChainedGrammar;
 			sourceTree = "<group>";
 		};
-		CE01A0DB2140B1C400DABCCA /* 链式语法Tests */ = {
+		CE01A0DB2140B1C400DABCCA /* ChainedGrammarTests */ = {
 			isa = PBXGroup;
 			children = (
 				CE01A0DC2140B1C400DABCCA /* ____Tests.m */,
 				CE01A0DE2140B1C400DABCCA /* Info.plist */,
 			);
-			path = "链式语法Tests";
+			path = ChainedGrammarTests;
 			sourceTree = "<group>";
 		};
-		CE01A0E62140B1C400DABCCA /* 链式语法UITests */ = {
+		CE01A0E62140B1C400DABCCA /* ChainedGrammarUITests */ = {
 			isa = PBXGroup;
 			children = (
 				CE01A0E72140B1C400DABCCA /* ____UITests.m */,
 				CE01A0E92140B1C400DABCCA /* Info.plist */,
 			);
-			path = "链式语法UITests";
+			path = ChainedGrammarUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE01A0BF2140B1C000DABCCA /* 链式语法 */ = {
+		CE01A0BF2140B1C000DABCCA /* ChainedGrammar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE01A0EC2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法" */;
+			buildConfigurationList = CE01A0EC2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammar" */;
 			buildPhases = (
 				75468F71E9AED52166E67BE1 /* [CP] Check Pods Manifest.lock */,
 				CE01A0BC2140B1C000DABCCA /* Sources */,
@@ -179,14 +179,14 @@
 			);
 			dependencies = (
 			);
-			name = "链式语法";
+			name = ChainedGrammar;
 			productName = "链式语法";
-			productReference = CE01A0C02140B1C000DABCCA /* 链式语法.app */;
+			productReference = CE01A0C02140B1C000DABCCA /* ChainedGrammar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE01A0D72140B1C400DABCCA /* 链式语法Tests */ = {
+		CE01A0D72140B1C400DABCCA /* ChainedGrammarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE01A0EF2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法Tests" */;
+			buildConfigurationList = CE01A0EF2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammarTests" */;
 			buildPhases = (
 				CE01A0D42140B1C400DABCCA /* Sources */,
 				CE01A0D52140B1C400DABCCA /* Frameworks */,
@@ -197,14 +197,14 @@
 			dependencies = (
 				CE01A0DA2140B1C400DABCCA /* PBXTargetDependency */,
 			);
-			name = "链式语法Tests";
+			name = ChainedGrammarTests;
 			productName = "链式语法Tests";
-			productReference = CE01A0D82140B1C400DABCCA /* 链式语法Tests.xctest */;
+			productReference = CE01A0D82140B1C400DABCCA /* ChainedGrammarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE01A0E22140B1C400DABCCA /* 链式语法UITests */ = {
+		CE01A0E22140B1C400DABCCA /* ChainedGrammarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE01A0F22140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法UITests" */;
+			buildConfigurationList = CE01A0F22140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammarUITests" */;
 			buildPhases = (
 				CE01A0DF2140B1C400DABCCA /* Sources */,
 				CE01A0E02140B1C400DABCCA /* Frameworks */,
@@ -215,9 +215,9 @@
 			dependencies = (
 				CE01A0E52140B1C400DABCCA /* PBXTargetDependency */,
 			);
-			name = "链式语法UITests";
+			name = ChainedGrammarUITests;
 			productName = "链式语法UITests";
-			productReference = CE01A0E32140B1C400DABCCA /* 链式语法UITests.xctest */;
+			productReference = CE01A0E32140B1C400DABCCA /* ChainedGrammarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +242,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE01A0BB2140B1C000DABCCA /* Build configuration list for PBXProject "链式语法" */;
+			buildConfigurationList = CE01A0BB2140B1C000DABCCA /* Build configuration list for PBXProject "ChainedGrammar" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -255,9 +255,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE01A0BF2140B1C000DABCCA /* 链式语法 */,
-				CE01A0D72140B1C400DABCCA /* 链式语法Tests */,
-				CE01A0E22140B1C400DABCCA /* 链式语法UITests */,
+				CE01A0BF2140B1C000DABCCA /* ChainedGrammar */,
+				CE01A0D72140B1C400DABCCA /* ChainedGrammarTests */,
+				CE01A0E22140B1C400DABCCA /* ChainedGrammarUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -376,12 +376,12 @@
 /* Begin PBXTargetDependency section */
 		CE01A0DA2140B1C400DABCCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE01A0BF2140B1C000DABCCA /* 链式语法 */;
+			target = CE01A0BF2140B1C000DABCCA /* ChainedGrammar */;
 			targetProxy = CE01A0D92140B1C400DABCCA /* PBXContainerItemProxy */;
 		};
 		CE01A0E52140B1C400DABCCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE01A0BF2140B1C000DABCCA /* 链式语法 */;
+			target = CE01A0BF2140B1C000DABCCA /* ChainedGrammar */;
 			targetProxy = CE01A0E42140B1C400DABCCA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -569,7 +569,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qiuYangHanabi.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/链式语法.app/链式语法";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedGrammar.app/ChainedGrammar";
 			};
 			name = Debug;
 		};
@@ -588,7 +588,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "qiuYangHanabi.----Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/链式语法.app/链式语法";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChainedGrammar.app/ChainedGrammar";
 			};
 			name = Release;
 		};
@@ -631,7 +631,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE01A0BB2140B1C000DABCCA /* Build configuration list for PBXProject "链式语法" */ = {
+		CE01A0BB2140B1C000DABCCA /* Build configuration list for PBXProject "ChainedGrammar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE01A0EA2140B1C400DABCCA /* Debug */,
@@ -640,7 +640,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE01A0EC2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法" */ = {
+		CE01A0EC2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE01A0ED2140B1C400DABCCA /* Debug */,
@@ -649,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE01A0EF2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法Tests" */ = {
+		CE01A0EF2140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE01A0F02140B1C400DABCCA /* Debug */,
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE01A0F22140B1C400DABCCA /* Build configuration list for PBXNativeTarget "链式语法UITests" */ = {
+		CE01A0F22140B1C400DABCCA /* Build configuration list for PBXNativeTarget "ChainedGrammarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE01A0F32140B1C400DABCCA /* Debug */,
