@@ -16,6 +16,9 @@ typedef NS_ENUM (NSInteger, RequestMethod){
 
 @interface QY_AFNetworking : NSObject
 
+/**
+ block做返回值，类似于声明属性的get方法，只不过属性是block类型
+ */
 - (QY_AFNetworking *(^)(NSString *))getUrl;
 - (QY_AFNetworking *(^)(RequestMethod))getMethod;
 - (QY_AFNetworking *(^)(NSMutableDictionary *))getParams;

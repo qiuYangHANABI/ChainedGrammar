@@ -17,6 +17,10 @@
 		CE01A0DD2140B1C400DABCCA /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0DC2140B1C400DABCCA /* ____Tests.m */; };
 		CE01A0E82140B1C400DABCCA /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0E72140B1C400DABCCA /* ____UITests.m */; };
 		CE01A0F72140BC7A00DABCCA /* QY_AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */; };
+		CE01A10221421D6000DABCCA /* video.json in Resources */ = {isa = PBXBuildFile; fileRef = CE01A0FC21421D6000DABCCA /* video.json */; };
+		CE01A10321421D6000DABCCA /* LMJBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0FD21421D6000DABCCA /* LMJBaseResponse.m */; };
+		CE01A10421421D6000DABCCA /* LMJRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A0FE21421D6000DABCCA /* LMJRequestManager.m */; };
+		CE01A10521421D6000DABCCA /* LMJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE01A10021421D6000DABCCA /* LMJBaseRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,14 @@
 		CE01A0E92140B1C400DABCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QY_AFNetworking.h; sourceTree = "<group>"; };
 		CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QY_AFNetworking.m; sourceTree = "<group>"; };
+		CE01A0FA21421D6000DABCCA /* LMJBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseResponse.h; sourceTree = "<group>"; };
+		CE01A0FC21421D6000DABCCA /* video.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = video.json; sourceTree = "<group>"; };
+		CE01A0FD21421D6000DABCCA /* LMJBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseResponse.m; sourceTree = "<group>"; };
+		CE01A0FE21421D6000DABCCA /* LMJRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestManager.m; sourceTree = "<group>"; };
+		CE01A0FF21421D6000DABCCA /* LMJBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseRequest.h; sourceTree = "<group>"; };
+		CE01A10021421D6000DABCCA /* LMJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseRequest.m; sourceTree = "<group>"; };
+		CE01A10121421D6000DABCCA /* LMJRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestManager.h; sourceTree = "<group>"; };
+		CE01A10621421EC600DABCCA /* LMJiOSProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LMJiOSProject.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +144,9 @@
 				CE01A0C42140B1C000DABCCA /* AppDelegate.m */,
 				CE01A0C62140B1C000DABCCA /* ViewController.h */,
 				CE01A0C72140B1C000DABCCA /* ViewController.m */,
-				CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */,
-				CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */,
+				CE01A10621421EC600DABCCA /* LMJiOSProject.pch */,
+				CE01A0F921421D1500DABCCA /* Network */,
+				CE01A0F821421CE200DABCCA /* QY_ChainedGrammar */,
 				CE01A0C92140B1C000DABCCA /* Main.storyboard */,
 				CE01A0CC2140B1C300DABCCA /* Assets.xcassets */,
 				CE01A0CE2140B1C300DABCCA /* LaunchScreen.storyboard */,
@@ -159,6 +172,37 @@
 				CE01A0E92140B1C400DABCCA /* Info.plist */,
 			);
 			path = ChainedGrammarUITests;
+			sourceTree = "<group>";
+		};
+		CE01A0F821421CE200DABCCA /* QY_ChainedGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A0F52140BC7A00DABCCA /* QY_AFNetworking.h */,
+				CE01A0F62140BC7A00DABCCA /* QY_AFNetworking.m */,
+			);
+			path = QY_ChainedGrammar;
+			sourceTree = "<group>";
+		};
+		CE01A0F921421D1500DABCCA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A0FB21421D6000DABCCA /* LMJLocalJsons */,
+				CE01A0FF21421D6000DABCCA /* LMJBaseRequest.h */,
+				CE01A10021421D6000DABCCA /* LMJBaseRequest.m */,
+				CE01A0FA21421D6000DABCCA /* LMJBaseResponse.h */,
+				CE01A0FD21421D6000DABCCA /* LMJBaseResponse.m */,
+				CE01A10121421D6000DABCCA /* LMJRequestManager.h */,
+				CE01A0FE21421D6000DABCCA /* LMJRequestManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE01A0FB21421D6000DABCCA /* LMJLocalJsons */ = {
+			isa = PBXGroup;
+			children = (
+				CE01A0FC21421D6000DABCCA /* video.json */,
+			);
+			path = LMJLocalJsons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE01A0D02140B1C300DABCCA /* LaunchScreen.storyboard in Resources */,
+				CE01A10221421D6000DABCCA /* video.json in Resources */,
 				CE01A0CD2140B1C300DABCCA /* Assets.xcassets in Resources */,
 				CE01A0CB2140B1C000DABCCA /* Main.storyboard in Resources */,
 			);
@@ -348,10 +393,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE01A10521421D6000DABCCA /* LMJBaseRequest.m in Sources */,
 				CE01A0F72140BC7A00DABCCA /* QY_AFNetworking.m in Sources */,
 				CE01A0C82140B1C000DABCCA /* ViewController.m in Sources */,
 				CE01A0D32140B1C300DABCCA /* main.m in Sources */,
 				CE01A0C52140B1C000DABCCA /* AppDelegate.m in Sources */,
+				CE01A10321421D6000DABCCA /* LMJBaseResponse.m in Sources */,
+				CE01A10421421D6000DABCCA /* LMJRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +571,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
-				INFOPLIST_FILE = "链式语法/Info.plist";
+				GCC_PREFIX_HEADER = "/Users/huangqiuyang/Desktop/qYDemo/链式语法/ChainedGrammar/LMJiOSProject.pch";
+				INFOPLIST_FILE = ChainedGrammar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -542,7 +591,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FJ2L39L2WG;
-				INFOPLIST_FILE = "链式语法/Info.plist";
+				GCC_PREFIX_HEADER = "/Users/huangqiuyang/Desktop/qYDemo/链式语法/ChainedGrammar/LMJiOSProject.pch";
+				INFOPLIST_FILE = ChainedGrammar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
